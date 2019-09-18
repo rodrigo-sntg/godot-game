@@ -1,6 +1,6 @@
 [gd_scene load_steps=76 format=2]
 
-[ext_resource path="res://Mob.gd" type="Script" id=1]
+[ext_resource path="res://scripts/Mob.gd" type="Script" id=1]
 [ext_resource path="res://assets/orc/0_Orc_Walking_000.png" type="Texture" id=2]
 [ext_resource path="res://assets/orc/0_Orc_Walking_001.png" type="Texture" id=3]
 [ext_resource path="res://assets/orc/0_Orc_Walking_002.png" type="Texture" id=4]
@@ -73,6 +73,7 @@
 [ext_resource path="res://assets/ogre/0_Ogre_Walking_021.png" type="Texture" id=71]
 [ext_resource path="res://assets/ogre/0_Ogre_Walking_022.png" type="Texture" id=72]
 [ext_resource path="res://assets/ogre/0_Ogre_Walking_023.png" type="Texture" id=73]
+
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {

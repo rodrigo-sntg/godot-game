@@ -1,6 +1,6 @@
 [gd_scene load_steps=80 format=2]
 
-[ext_resource path="res://Player.gd" type="Script" id=1]
+[ext_resource path="res://scripts/Player.gd" type="Script" id=1]
 [ext_resource path="res://assets/reaper/0_Reaper_Man_Walking_000.png" type="Texture" id=2]
 [ext_resource path="res://assets/reaper/0_Reaper_Man_Walking_001.png" type="Texture" id=3]
 [ext_resource path="res://assets/reaper/0_Reaper_Man_Walking_002.png" type="Texture" id=4]
@@ -43,39 +43,39 @@
 [ext_resource path="res://assets/reaper-2/Idle/0_Reaper_Man_Idle_015.png" type="Texture" id=41]
 [ext_resource path="res://assets/reaper-2/Idle/0_Reaper_Man_Idle_016.png" type="Texture" id=42]
 [ext_resource path="res://assets/reaper-2/Idle/0_Reaper_Man_Idle_017.png" type="Texture" id=43]
-[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_000.png" type="Texture" id=44]
-[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_001.png" type="Texture" id=45]
-[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_002.png" type="Texture" id=46]
-[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_003.png" type="Texture" id=47]
-[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_004.png" type="Texture" id=48]
-[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_005.png" type="Texture" id=49]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_000.png" type="Texture" id=50]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_001.png" type="Texture" id=51]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_002.png" type="Texture" id=52]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_003.png" type="Texture" id=53]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_004.png" type="Texture" id=54]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_005.png" type="Texture" id=55]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_006.png" type="Texture" id=56]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_007.png" type="Texture" id=57]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_008.png" type="Texture" id=58]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_009.png" type="Texture" id=59]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_010.png" type="Texture" id=60]
-[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_011.png" type="Texture" id=61]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_000.png" type="Texture" id=62]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_001.png" type="Texture" id=63]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_002.png" type="Texture" id=64]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_003.png" type="Texture" id=65]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_004.png" type="Texture" id=66]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_005.png" type="Texture" id=67]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_006.png" type="Texture" id=68]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_007.png" type="Texture" id=69]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_008.png" type="Texture" id=70]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_009.png" type="Texture" id=71]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_010.png" type="Texture" id=72]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_011.png" type="Texture" id=73]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_012.png" type="Texture" id=74]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_013.png" type="Texture" id=75]
-[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_014.png" type="Texture" id=76]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_000.png" type="Texture" id=44]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_001.png" type="Texture" id=45]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_002.png" type="Texture" id=46]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_003.png" type="Texture" id=47]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_004.png" type="Texture" id=48]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_005.png" type="Texture" id=49]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_006.png" type="Texture" id=50]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_007.png" type="Texture" id=51]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_008.png" type="Texture" id=52]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_009.png" type="Texture" id=53]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_010.png" type="Texture" id=54]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_011.png" type="Texture" id=55]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_012.png" type="Texture" id=56]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_013.png" type="Texture" id=57]
+[ext_resource path="res://assets/reaper-2/Dying/0_Reaper_Man_Dying_014.png" type="Texture" id=58]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_000.png" type="Texture" id=59]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_001.png" type="Texture" id=60]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_002.png" type="Texture" id=61]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_003.png" type="Texture" id=62]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_004.png" type="Texture" id=63]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_005.png" type="Texture" id=64]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_006.png" type="Texture" id=65]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_007.png" type="Texture" id=66]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_008.png" type="Texture" id=67]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_009.png" type="Texture" id=68]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_010.png" type="Texture" id=69]
+[ext_resource path="res://assets/reaper-2/Slashing/0_Reaper_Man_Slashing_011.png" type="Texture" id=70]
+[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_000.png" type="Texture" id=71]
+[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_001.png" type="Texture" id=72]
+[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_002.png" type="Texture" id=73]
+[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_003.png" type="Texture" id=74]
+[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_004.png" type="Texture" id=75]
+[ext_resource path="res://assets/reaper-2/Jump Start/0_Reaper_Man_Jump Start_005.png" type="Texture" id=76]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -89,25 +89,25 @@ animations = [ {
 "name": "idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ) ],
-"loop": true,
-"name": "jump",
-"speed": 3.0
-}, {
-"frames": [ ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ) ],
-"loop": true,
-"name": "atack",
-"speed": 12.0
-}, {
-"frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ) ],
+"frames": [ ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ) ],
 "loop": true,
 "name": "dying",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 76 ) ],
+"frames": [ ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ) ],
+"loop": true,
+"name": "atack",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 58 ) ],
 "loop": true,
 "name": "dead",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ) ],
+"loop": true,
+"name": "jump",
+"speed": 3.0
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
@@ -124,7 +124,7 @@ script = ExtResource( 1 )
 scale = Vector2( 0.15, 0.15 )
 frames = SubResource( 1 )
 animation = "jump"
-frame = 3
+frame = 5
 speed_scale = 5.0
 playing = true
 
